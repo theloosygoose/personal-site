@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --text-primary: #0F0B07;
+    --text-secondary: #5C5C5C;
+    --bg-light: #FFFAF5;
+    --primary: #16312B;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+p {
+    font-family: 'Lora', sans;
+}
+
+@layer reset {
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        color: var(--text-primary);
+        background-color: var(--bg-light);
+    }
+
+    body {
+        margin: unset;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+        font: inherit;
+    }
+
+    img,
+    picture,
+    svg,
+    canvas {
+        display: block;
+        max-inline-size: 100%;
+        block-size: auto;
+    }
+}
