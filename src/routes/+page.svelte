@@ -3,17 +3,17 @@
 	import type { PageData } from "./$types";
 
     export let data: PageData;
-    console.log(data.data);
 </script>
 
 <main>
+    <ArticlesSection area_name="art" article_previews={data.article_previews}/>
+
     <section class="stats">
        Stats 
     </section>
     <section class="tracker">
         Tracker
     </section>
-
 </main>
 
 <style>
@@ -37,12 +37,11 @@ main {
             "art art art stats"
             "art art art tracker";
     }
-    .articles {
-        grid-area: art;
-    }
+
     .stats {
         grid-area: stats;
     }
+
     .tracker {
         grid-area: tracker
     }

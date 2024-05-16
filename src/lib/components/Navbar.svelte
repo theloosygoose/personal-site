@@ -1,12 +1,4 @@
 <script lang="ts">
-	export let is_index = true;
-
-	function title_size(): string {
-		if (is_index) {
-			return 'large-title';
-		}
-		return 'small-title';
-	}
 </script>
 
 <header>

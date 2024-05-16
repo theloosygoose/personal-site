@@ -7,13 +7,7 @@
     --primary: #16312B;
 }
 
-body {
-    font-family: 'League Spartan', sans-serif;
-}
 
-p {
-    font-family: 'Lora', sans;
-}
 
 @layer reset {
 
@@ -28,11 +22,13 @@ p {
         padding: 0;
         color: var(--text-primary);
         background-color: var(--bg-light);
+        font-family: 'League Spartan', sans-serif;
     }
 
     body {
         margin: unset;
     }
+
     a {
         text-decoration: none;
     }
