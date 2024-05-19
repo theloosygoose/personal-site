@@ -1,5 +1,7 @@
 export interface ArticlePreviewData {
-    title: string;
-    description: string;
-    image?: string;
+    id: number,
+    title: string,
+    htmlBody: string,
+    plaintext: string,
+    image?: string,
 }

@@ -8,7 +8,7 @@
 
 <section style={"grid-area:" + area_name}>
     {#each article_previews as preview }
-        <ArticlePreviewCard title={preview.title} description={preview.description}/>
+        <ArticlePreviewCard title={preview.title} description={preview.plaintext} id={preview.id}/>
     {/each}
 </section>
 

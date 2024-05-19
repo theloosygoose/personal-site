@@ -1,9 +1,11 @@
 <script lang="ts">
 	export let title: string;
 	export let description: string;
+
+    export let id: number;
 </script>
 
-<a class="article-preview" href="/">
+<a class="article-preview" data-sveltekit-preload-data="false" href="article/{id}">
     <article>
         <h2>{title}</h2>
         <p>{description}</p>

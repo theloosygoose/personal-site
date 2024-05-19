@@ -8,7 +8,7 @@
 	<nav>
 		<ul>
 			<li><a href="/">Data Visulisations</a></li>
-			<li><a href="/">Articles</a></li>
+			<li><a href="/article">Articles</a></li>
 			<li><a href="/">Dev Logs</a></li>
 			<li><a href="/">Projects</a></li>
 			<li><a href="/">Music Ratings</a></li>
