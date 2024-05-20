@@ -20,12 +20,11 @@
 
     .article-preview {
 		border-bottom: 0.02rem var(--text-secondary) solid;
-        margin-bottom: 2rem;
         padding-bottom: 1rem;
         display: grid;
         grid-template-columns: subgrid;
-        grid-template-rows: 1fr;
         grid-column: 1 / 3;
+        height: fit-content;
     }
 
     img {
